@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "John Doe",
+      "matricNumber": "KNUST12345",
+      "department": "Computer Science",
+      "skills": ["React", "Python"],
+      "certifications": ["AWS Certified Developer"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "AI Chatbot",
+      "description": "A chatbot using NLP",
+      "tags": ["machine learning", "showcase"],
+      "files": ["demo.mp4", "code.zip"],
+      "ownerId": "u1",
+      "type": "showcase"
+    },
+    {
+      "id": "p2",
+      "title": "Web App",
+      "description": "Need help with backend",
+      "tags": ["web development", "help"],
+      "files": [],
+      "ownerId": "u1",
+      "type": "help"
+    }
+  ],
+  "tags": [
+    {"id": "t1", "name": "machine learning"},
+    {"id": "t2", "name": "web development"},
+    {"id": "t3", "name": "showcase"},
+    {"id": "t4", "name": "help"}
+  ]
+}
